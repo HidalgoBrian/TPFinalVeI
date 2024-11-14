@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calificaciones.css">
+    <title>EduClass - Calificaciones</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Trabajos.html">Trabajos</a></li>
+                    <li><a href="calificaciones.html">Calificaciones</a></li>
+                    <li><a href="vistaProfesor.html">Profesor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Calificaciones por Materia y Trabajo</h1>
+        <div class="grades-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Trabajo</th>
+                        <th>Calificación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Matemáticas</td>
+                        <td>Ejercicios de Álgebra</td>
+                        <td><span class="grade grade-high">9.0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Matemáticas</td>
+                        <td>Proyecto de Geometría</td>
+                        <td><span class="grade grade-high">7.5</span></td>
+                    </tr>
+                    <tr>
+                        <td>Historia</td>
+                        <td>Ensayo sobre la Revolución Francesa</td>
+                        <td><span class="grade grade-medium">6.5</span></td>
+                    </tr>
+                    <tr>
+                        <td>Historia</td>
+                        <td>Presentación sobre la Antigua Grecia</td>
+                        <td><span class="grade grade-medium">5.5</span></td>
+                    </tr>
+                    <tr>
+                        <td>Ciencias</td>
+                        <td>Informe de Laboratorio: Fotosíntesis</td>
+                        <td><span class="grade grade-low">4.0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Ciencias</td>
+                        <td>Proyecto de Investigación: Energías Renovables</td>
+                        <td><span class="grade grade-low">4.0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Literatura</td>
+                        <td>Análisis de "Cien años de soledad"</td>
+                        <td><span class="grade grade-high">8.0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Literatura</td>
+                        <td>Ensayo sobre Shakespeare</td>
+                        <td><span class="grade grade-high">10.0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Inglés</td>
+                        <td>Presentación Oral</td>
+                        <td><span class="grade grade-high">9.0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Inglés</td>
+                        <td>Ensayo de Opinión</td>
+                        <td><span class="grade grade-high">8.0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="pie-chart-container">
+            <h2>Promedio de Calificaciones por Asignatura</h2>
+            <div class="pie-chart"></div>
+            <div class="pie-legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #4CAF50;"></div>
+                    <span>Matemáticas: 9.0</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #FFC107;"></div>
+                    <span>Historia: 6.25</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #2196F3;"></div>
+                    <span>Ciencias: 4.25</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #9C27B0;"></div>
+                    <span>Literatura: 9.25</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #F44336;"></div>
+                    <span>Inglés: 8.0</span>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

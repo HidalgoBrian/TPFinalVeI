@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vistaProfesor.css">
+    <title> Vista Profesor</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Inicio</a></li>
+                    <li><a href="/Trabajos.html">Trabajos</a></li>
+                    <li><a href="/calificaciones.html">Calificaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Trabajos Asignados</h1>
+        <a href="#new-assignment-form" class="new-assignment-btn">Crear Nuevo Trabajo</a>
+        <section class="assignments">
+            <div class="assignment">
+                <h2>Ensayo sobre la Revolución Francesa</h2>
+                <p>Fecha de entrega: 25/11/2023</p>
+                <p>Curso: Historia</p>
+                <span class="status active">Activo</span>
+            </div>
+            <div class="assignment">
+                <h2>Proyecto de Investigación: HOMOSAPIENS</h2>
+                <p>Fecha de entrega: 30/11/2023</p>
+                <p>Curso: historia</p>
+                <span class="status active">Activo</span>
+            </div>
+            <div class="assignment">
+                <h2>Análisis de "Cien años de soledad"</h2>
+                <p>Fecha de entrega: 10/11/2023</p>
+                <p>Curso: historia</p>
+                <span class="status expired">Expirado</span>
+            </div>
+        </section>
+        <section id="new-assignment-form" class="new-assignment-form">
+            <h2>Crear Nuevo Trabajo</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="title">Título del trabajo:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Descripción:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="dueDate">Fecha de entrega:</label>
+                    <input type="date" id="dueDate" name="dueDate" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Crear Trabajo</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

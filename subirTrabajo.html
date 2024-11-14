@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subirTrabajo.css">
+    <title>Subir Trabajo</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="Trabajos.html">Trabajos</a></li>
+                    <li><a href="calificaciones.html">Calificaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Subir Trabajo</h1>
+        <form class="upload-form">
+            <div class="form-group">
+                <label for="title">Título del trabajo:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Curso:</label>
+                <select id="course" name="course" required>
+                    <option value="">Selecciona un curso</option>
+                    <option value="matematicas">Matemáticas</option>
+                    <option value="historia">Historia</option>
+                    <option value="ciencias">Ciencias</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="file">Archivo:</label>
+                <input type="file" id="file" name="file" required>
+            </div>
+            <button type="submit">Subir Trabajo</button>
+        </form>
+    </main>
+</body>
+</html>

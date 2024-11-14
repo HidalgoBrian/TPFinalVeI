@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    /* Resta la altura del header */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendario {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+}
+
+.calendario th,
+.calendario td {
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.calendario th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.calendario td {
+    background-color: #fafafa;
+}
+
+.horario {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.materia {
+    color: #333;
+}
+
+.calendario td:hover {
+    background-color: #e0f7fa;
+}
+
+.student-info p {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grades-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.grades-table {
+    width: 30%;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+}
+
+.grades-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grades-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grades-table th,
+.grades-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.grades-table th {
+    background-color: #f2f2f2;
+}
+
+.grade-high {
+    color: green;
+    font-weight: bold;
+}
+
+.grade-medium {
+    color: orange;
+    font-weight: bold;
+}
+
+.grade-low {
+    color: red;
+    font-weight: bold;
+}
