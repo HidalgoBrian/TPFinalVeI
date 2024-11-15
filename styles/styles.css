@@ -6,6 +6,7 @@
         }
 
         .container {
+            text-align: center;
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
@@ -29,7 +30,7 @@
             text-decoration: none;
         }
 
-        .assignments {
+        .welcome {
             background-color: white;
             border-radius: 8px;
             padding: 20px;
@@ -37,44 +38,30 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        .assignment {
-            border-bottom: 1px solid #e0e0e0;
-            padding: 15px 0;
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
         }
 
-        .assignment:last-child {
-            border-bottom: none;
+        .course {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
         }
 
-        .assignment h2 {
-            margin: 0;
-            color: #4267B2;
-        }
+        a {
 
-        .assignment p {
-            margin: 10px 0;
+            text-decoration: none;
+            color: black;
         }
-
-        .status {
-            display: inline-block;
-            padding: 5px 10px;
-            border-radius: 15px;
-            font-size: 0.8em;
-        }
-
-        .pending {
-            background-color: #FFA500;
+        footer {
+            background-color: #4267B2;
             color: white;
-        }
-
-        .completed {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-
-        h2 {
-
-            font-size: 45px;
-            color: #4267B2;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 40px;
         }

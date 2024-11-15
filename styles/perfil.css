@@ -33,7 +33,6 @@ main {
     justify-content: center;
     align-items: center;
     height: calc(100vh - 80px);
-    /* Resta la altura del header */
 }
 
 .table-container {
@@ -145,4 +144,11 @@ main {
 .grade-low {
     color: red;
     font-weight: bold;
+}
+footer {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
 }

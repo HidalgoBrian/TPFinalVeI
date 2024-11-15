@@ -105,3 +105,10 @@ tr:nth-child(even) {
     height: 20px;
     margin-right: 5px;
 }
+footer {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}

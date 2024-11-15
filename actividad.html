@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/actividad.css">
+    <link rel="icon" type="image/x-icon" href="./imagenesylogos/deberes.png">
+    <title>Ensayo de Historia</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ensayo sobre la Revolución Francesa</h1>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- Ensayo de historia -->
+        <section class="essay">
+            <h2>Introducción</h2>
+            <p>
+                La Revolución Francesa, que tuvo lugar entre 1789 y 1799, fue uno de los eventos más significativos en la historia moderna. Este levantamiento popular transformó la estructura política, social y económica de Francia, y sus efectos se sintieron a nivel mundial. Fue un punto de inflexión en el que los ideales de libertad, igualdad y fraternidad se elevaron a la categoría de principios universales.
+            </p>
+
+            <h2>Desarrollo</h2>
+            <p>
+                Los factores que llevaron a la Revolución Francesa fueron múltiples y complejos. Entre ellos destacan las desigualdades sociales entre los tres estados: el clero, la nobleza y el pueblo llano. Además, la crisis económica agravada por las guerras y el derroche de la corte real generó un descontento generalizado.
+            </p>
+            <p>
+                En 1789, la convocatoria de los Estados Generales, por parte del rey Luis XVI, desencadenó una serie de eventos que culminaron con la toma de la Bastilla el 14 de julio de ese mismo año. Este hecho simbólico marcó el inicio de la Revolución.
+            </p>
+            <p>
+                A lo largo de la Revolución, surgieron diferentes fases, como la instauración de la Primera República, el Reinado del Terror bajo Robespierre y, finalmente, la ascensión de Napoleón Bonaparte al poder. Cada uno de estos momentos redefinió el curso de la historia, no solo para Francia, sino para Europa y el mundo entero.
+            </p>
+
+            <h2>Conclusión</h2>
+            <p>
+                La Revolución Francesa sentó las bases para la modernización de las democracias y la difusión de los derechos humanos. Aunque sus efectos fueron contradictorios y violentos, su legado perdura hasta hoy, siendo un ejemplo de lucha por la justicia social y la equidad.
+            </p>
+        </section>
+
+        <!-- Actividad para resolver -->
+        <section class="activity">
+            <h2>Actividad para resolver</h2>
+            <p>Responde las siguientes preguntas relacionadas con el ensayo.</p>
+            
+            <form id="activity-form">
+                <div class="form-group">
+                    <label for="question1">1. ¿Qué evento marcó el inicio de la Revolución Francesa?</label>
+                    <input type="text" id="question1" name="question1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="question2">2. Menciona al menos uno de los factores que llevaron a la Revolución.</label>
+                    <input type="text" id="question2" name="question2" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="question3">3. ¿Qué ideales fueron elevados durante la Revolución Francesa?</label>
+                    <input type="text" id="question3" name="question3" required>
+                </div>
+
+                <button type="submit">Enviar respuestas</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 </p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById("activity-form").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("¡Tus respuestas han sido enviadas!");
+        });
+    </script>
+</body>
+</html>

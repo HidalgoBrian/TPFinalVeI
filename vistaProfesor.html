@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vistaProfesor.css">
+    <link rel="stylesheet" href="./styles/vistaProfesor.css">
+    <link rel="icon" type="image/x-icon" href="./imagenesylogos/deberes.png">
     <title> Vista Profesor</title>
 </head>
 <body>
@@ -19,34 +20,55 @@
         </div>
     </header>
     <main class="container">
-        <h1>Trabajos Asignados</h1>
-        <a href="#new-assignment-form" class="new-assignment-btn">Crear Nuevo Trabajo</a>
-        <section class="assignments">
-            <div class="assignment">
-                <h2>Ensayo sobre la Revolución Francesa</h2>
-                <p>Fecha de entrega: 25/11/2023</p>
-                <p>Curso: Historia</p>
-                <span class="status active">Activo</span>
-            </div>
-            <div class="assignment">
-                <h2>Proyecto de Investigación: HOMOSAPIENS</h2>
-                <p>Fecha de entrega: 30/11/2023</p>
-                <p>Curso: historia</p>
-                <span class="status active">Activo</span>
-            </div>
-            <div class="assignment">
-                <h2>Análisis de "Cien años de soledad"</h2>
-                <p>Fecha de entrega: 10/11/2023</p>
-                <p>Curso: historia</p>
-                <span class="status expired">Expirado</span>
+        <h1>Hola profesor: <h2 style="color: #4267B2;">Garcia Carlos</h2></h1>
+        <h2>Estos son sus cursos asignados:</h2>
+        
+        <section class="courses-calendar">
+            <h2>Cursos y Horarios</h2>
+            <div class="calendar">
+             
+                <div class="course">
+                    <h3>Historia 3°B</h3>
+                    <p><strong>Horario:</strong> Lunes y Miércoles - 10:00 AM a 12:00 PM</p>
+                </div>
+                
+              
+                <div class="course">
+                    <h3>Ciencias Sociales 1°A</h3>
+                    <p><strong>Horario:</strong> Martes y Jueves - 2:00 PM a 4:00 PM</p>
+                </div>
+                
+                <div class="course">
+                    <h3>Historia 4°A</h3>
+                    <p><strong>Horario:</strong> Miércoles y Viernes - 9:00 AM a 11:00 AM</p>
+                </div>
+
+                
+                <div class="course">
+                    <h3>Ciencias Sociales 2°B</h3>
+                    <p><strong>Horario:</strong> Lunes - 3:00 PM a 5:00 PM</p>
+                </div>
             </div>
         </section>
+        
+        
         <section id="new-assignment-form" class="new-assignment-form">
             <h2>Crear Nuevo Trabajo</h2>
             <form action="#" method="post">
                 <div class="form-group">
                     <label for="title">Título del trabajo:</label>
                     <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Curso:</label>
+                    <select id="description" name="description" rows="4" required>
+                        <option value="1">1°A</option>
+                        <option value="1">2°B</option>
+                        <option value="1">3°B</option>
+                        <option value="1">4°A</option>
+
+
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="description">Descripción:</label>
@@ -62,5 +84,10 @@
             </form>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 </p>
+        </div>
+    </footer>
 </body>
 </html>
