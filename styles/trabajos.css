@@ -29,6 +29,11 @@
             text-decoration: none;
         }
 
+        nav ul li a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
         .assignments {
             background-color: white;
             border-radius: 8px;
@@ -78,13 +83,16 @@
             font-size: 45px;
             color: #4267B2;
         }
-        .botones{
+
+        .botones {
             border-radius: 10px;
 
         }
-        .botones:hover{
+
+        .botones:hover {
             cursor: pointer;
         }
+
         footer {
             background-color: #4267B2;
             color: white;

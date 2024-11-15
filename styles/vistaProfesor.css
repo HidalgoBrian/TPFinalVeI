@@ -29,6 +29,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .courses-calendar {
     background-color: white;
     border-radius: 8px;
@@ -41,26 +46,39 @@ nav ul li a {
     color: #4267B2;
 }
 
-.calendar{
+.calendar {
     display: flex;
-}
-.calendar .course {
-    border-bottom: 1px solid #e0e0e0;
-    padding: 15px 0;
 }
 
 .calendar .course:last-child {
     border-bottom: none;
 }
 
+.calendar {
+    display: flex;
+    gap: 15px;
+}
+
+.calendar .course {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: #ccc;
+    width: calc(50% - 10px);
+}
+
 .course h3 {
-    margin: 0;
+    margin: 0 0 10px;
     color: #4267B2;
+    font-weight: bold;
 }
 
 .course p {
     margin: 10px 0;
+    color: #333;
 }
+
 
 .new-assignment-btn {
     background-color: #4CAF50;

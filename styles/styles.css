@@ -30,6 +30,11 @@
             text-decoration: none;
         }
 
+        nav ul li a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
         .welcome {
             background-color: white;
             border-radius: 8px;
@@ -58,6 +63,7 @@
             text-decoration: none;
             color: black;
         }
+
         footer {
             background-color: #4267B2;
             color: white;

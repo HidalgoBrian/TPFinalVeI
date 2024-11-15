@@ -29,6 +29,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 main {
     justify-content: center;
     align-items: center;
@@ -145,6 +150,7 @@ main {
     color: red;
     font-weight: bold;
 }
+
 footer {
     background-color: #4267B2;
     color: white;
